@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.slick-next:before, .slick-prev:before{
+
+}
+.slick-prev{
+  left: 0px;
+  z-index: 1;
+  width: 32px;
+  height: 88px;
+  background-color: #fff;
+  border-radius: 0 8px 8px 0;
+}
+.slick-next{
+  right: 0px;
+  z-index: 1;
+  width: 32px;
+  height: 88px;
+  background-color: #fff;
+  border-radius: 8px 0 0 8px;
+}
+.slick-prev:before{
+  content: "\f053" !important;
+  font-family: "FontAwesome";
+  color: #999;
+}
+.slick-next:before{
+  content: "\f054" !important;
+  font-family: "FontAwesome";
+  color: #999;
+  
+}
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover{
+  background-color: #fff;
+}
